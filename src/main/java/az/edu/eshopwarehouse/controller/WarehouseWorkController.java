@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/warehouseworks")
+@RequestMapping("/api1/warehouseworks")
 public class WarehouseWorkController {
 
     private final WarehouseWorkService warehouseWorkService;
